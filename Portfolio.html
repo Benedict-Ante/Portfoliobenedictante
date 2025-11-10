@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport"
+     content ="width=device-width, initial-scale=1.0">
+     <title> Jan Benedict Ante Portfolio </title>
+     <link rel="stylesheet" href="style.css"> 
+    <script src="script.js"></script>
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+
+</head>
+
+<body>
+    <header class="header"> 
+        <a href="#" class="logo"><span>Jan Bened</span>ict Ante</a> 
+            <nav class="navbar">
+                <a href="Portfolio.html" class="active">Home</a>
+                <a href="Education.html">Education</a>
+                <a href="about.html">About me</a>
+            </nav>
+        <a href="contact.html" class="Contact">Contact me</a>
+    </header>
+
+    <section class="home">
+        <div class="home-descript">
+            <h1> Jan Benedict J. Ante</h1>
+            <h2 style="color: rgb(44, 58, 92); margin-bottom: 0.67em;"> IT Support </h4>
+            <p> I am aspiring to become an IT Technical Support Specialist, with growing experience in troubleshooting hardware 
+                and software issues, configuring devices, and assisting end-users with technical concerns. I have a background in 
+                diagnosing, repairing, and maintaining computer systems to ensure consistent and efficient performance.I provide 
+                reliable hardware support and am continuously developing my skills in cybersecurity, focusing on identifying and 
+                addressing potential system vulnerabilities.</p>
+        </div>
+        <div class="img-box">
+            <img src="Profile.jpg" alt="">
+
+        </div>
+    </section>
+
+    
+
+<section class="projects-section">
+    <h2 class="project-title">Projects and Experience</h2>
+    <div class="projects-container">
+        <div class="project-card" onclick="openImage('rc,jpg')">
+            <img src="rc.jpg" alt="">
+            <div class="project-info">
+                <h3>Arduino RC Car</h3>
+                <p>A remote-controlled car built using Arduino, DC motors, and an H-Bridge motor driver.</p>
+            </div>
+        </div>
+        <div class="project-card" onclick="openImage('Hardware.jpg')">
+            <img src="Hardware.jpg" alt="">
+            <div class="project-info">
+                <h3>Hardware and Software</h3>
+                <p>Handled computer and printer hardware maintenance, including cleaning, diagnostics, and part replacement.
+                   Also performed software tasks such as OS installation, reformatting, system configuration, and basic troubleshooting to keep devices running smoothly (OJT Experience and home Experience) .</p>
+            </div>
+        </div>
+        <div class="project-card" onclick="openImage('file_encrypt.jpg')">
+            <img src="file_encrypt.jpg" alt="">
+            <div class="project-info">
+                <h3>File Encryption Application</h3>
+                <p>An app that Encrypt files in the desktop using an encryption method ( Individual school project)  .</p>
+            </div>
+        </div>
+    </div>
+    <div class="projects-container">
+        <div class="project-card" onclick="openImage('file_encrypt.jpg')">
+            <img src="OJT.jpg" alt="">
+                <div class="project-info">
+                <h3>OJT Information Technology Office at Bicol University</h3>
+                <p>  .</p>
+            </div>
+        </div>
+        <div class="project-card" onclick="openImage('Calc.jpg')">
+            <img src="calc.jpg" alt="">
+            <div class="project-info">
+                <h3>Calculator</h3>
+                <p>  .</p>
+            </div>
+        </div>
+         
+    </div>
+
+
+ 
+
+
+
+
+
+    
+
+</section>
+
+
+</section>
+
+<div id="lightbox" class="lightbox" onclick="closeImage()">
+    <img id="lightbox-img" src="">
+</div>
+
+
+</body>
+</html>
